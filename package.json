@@ -1,16 +1,16 @@
 {
   "name": "paquete-npm-prueba-grafosoft",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Este paquete es un paquete de prueba, en el cual se evaluara como subir un paquete a npm ",
   "main": "index.js",
   "scripts": {
     "build-browser": "tsc src/index.ts --outDir dist-browser --module ES6",
     "build-node": "tsc src/index.ts --outDir dist-node",
-    "build":"npm run build-browser & build-node"
+    "build": "npm run build-browser & build-node"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/desarrollo-semisenior-grafosoft/paquete-npm-prueba.git"
+    "url": "https://github.com/desarrollo-semisenior-grafosoft/paquete-npm-prueba.git"
   },
   "author": "Grafosoft",
   "license": "ISC",
