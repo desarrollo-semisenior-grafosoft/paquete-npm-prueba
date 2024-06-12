@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Divicion = exports.Multiplicacion = exports.Resta = exports.Suma = void 0;
+var Suma = function (num1, num2) { return num1 + num2; };
+exports.Suma = Suma;
+var Resta = function (num1, num2) { return num1 - num2; };
+exports.Resta = Resta;
+var Multiplicacion = function (num1, num2) { return num1 * num2; };
+exports.Multiplicacion = Multiplicacion;
+var Divicion = function (num1, num2) { return num1 / num2; };
+exports.Divicion = Divicion;
